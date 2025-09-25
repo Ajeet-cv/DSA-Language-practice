@@ -1,8 +1,17 @@
 #include<iostream>
 using namespace std;
- struct t1
+ struct height
  {
     int feet;
     int inch;
  };
- struct t2,t3;
+ int main(){
+ height t1={10,5};
+  height t2={12,9};
+   height t3;
+   t3.inch=t1.inch + t2.inch;
+   t3.feet=t1.feet+t2.feet+t3.inch/12;
+   t3.inch=t3.inch%12;
+   cout<<t3.feet<<"  feet"<<"    "<<t3.inch<<"  inch";
+ }
+ 

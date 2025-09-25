@@ -110,20 +110,7 @@ void Initialize(){
     cout<<endl;
 }
 /*********************************/
-void stringreverse(char str[]){
-  Initialize();
-  int i=0;
-  while(str[i]!='\0'){
-    push(str[i]);
-    i++;
-  }
-  i=0;
-  while(!Isempty){
-   char x=pop(str[i]);
-   str[i]=x;
-   i++;
-  }
-}
+
 
 
  int main(){
@@ -137,12 +124,12 @@ void stringreverse(char str[]){
 //    for(int i=0;i<STACKSIZE;i++){
 //     cout<<s.item[i]<<"  "<<endl;
 //    }
-//    decimaltobinary(10);
-//    decimaltooctal(10);
-//    decimaltohexadecimal(10);
-//    decimaltoanybase(10,2);
-//    decimaltoanybase(10,8);
-//    decimaltoanybase(10,16);
-   stringreverse(str "ajeet");
+    decimaltobinary(10);
+    decimaltooctal(10);
+    decimaltohexadecimal(10);
+    decimaltoanybase(10,2);
+    decimaltoanybase(10,8);
+  decimaltoanybase(10,16);
+   
  }
 
